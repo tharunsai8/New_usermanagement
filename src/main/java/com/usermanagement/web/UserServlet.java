@@ -32,7 +32,7 @@ public class UserServlet extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String action = request.getServletPath();
-		System.out.println("äction: "  + request.getServletPath());
+		System.out.println("action: "  + request.getServletPath());
 
 		try {
 			switch (action) {
